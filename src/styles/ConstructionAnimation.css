@@ -1,0 +1,695 @@
+/* COLORS USED IN THE INTOR ANIMATION */
+
+.fil28 {
+  fill: #00923f;
+}
+.fil27 {
+  fill: #1f1a17;
+}
+.fil14 {
+  fill: #aaa9a9;
+}
+.fil11 {
+  fill: #c2c1c1;
+}
+.fil8 {
+  fill: #dededd;
+}
+.fil3 {
+  fill: white;
+}
+.fil7 {
+  fill: black;
+}
+.fil26 {
+  fill: #030104;
+}
+.fil35 {
+  fill: #131619;
+}
+.fil29 {
+  fill: #2e2e2d;
+}
+.fil30 {
+  fill: #454545;
+}
+.fil36 {
+  fill: #6c6b6a;
+}
+.fil24 {
+  fill: #b77d4e;
+}
+.fil34 {
+  fill: #c2c2c2;
+}
+.fil32 {
+  fill: #db670f;
+}
+.fil23 {
+  fill: #e09b58;
+}
+.fil33 {
+  fill: #e8902c;
+}
+.fil20 {
+  fill: #eeaa5b;
+}
+.fil21 {
+  fill: #f0c419;
+}
+.fil22 {
+  fill: #f9f7e4;
+}
+.fil31 {
+  fill: #fabe3a;
+}
+.fil10 {
+  fill: #140f2e;
+}
+.fil25 {
+  fill: #2a1d50;
+}
+.fil2 {
+  fill: #45648a;
+}
+.fil16 {
+  fill: #456492;
+}
+.fil0 {
+  fill: #5076b1;
+}
+.fil1 {
+  fill: #6087bf;
+}
+.fil13 {
+  fill: #8c8b8a;
+}
+.fil12 {
+  fill: #b6b5b4;
+}
+.fil19 {
+  fill: #b8676f;
+}
+.fil18 {
+  fill: #df8491;
+}
+.fil6 {
+  fill: #e19513;
+}
+.fil5 {
+  fill: #e6b15b;
+}
+.fil17 {
+  fill: #e97882;
+}
+.fil15 {
+  fill: #eee4e8;
+}
+.fil9 {
+  fill: #efeeee;
+}
+.fil4 {
+  fill: #f3ae31;
+}
+
+@keyframes tile_intro {
+  0% {
+    transform: translate(0px, -900px);
+    opacity: 0%;
+  }
+
+  20% {
+    opacity: 0%;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+}
+
+@keyframes forkLifter_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(-180px, 140px);
+  }
+
+  15% {
+    transform: translate(-180px, 140px);
+  }
+
+  20% {
+    transform: translate(-81px, 63px);
+  }
+
+  25% {
+    transform: translate(-81px, 63px);
+  }
+
+  27.5% {
+    transform: translate(-45px, 35px);
+  }
+
+  30% {
+    transform: translate(-90px, 70px);
+  }
+
+  35% {
+    transform: translate(9px, -7px);
+  }
+  37.5% {
+    transform: translate(9px, -7px);
+  }
+
+  40% {
+    transform: translate(54px, -42px);
+  }
+
+  42.5% {
+    transform: translate(9px, -7px);
+  }
+
+  45% {
+    transform: translate(108px, -84px);
+  }
+
+  47.5% {
+    transform: translate(108px, -84px);
+  }
+
+  50% {
+    transform: translate(180px, -133px);
+  }
+
+  100% {
+    transform: translate(180px, -133px);
+  }
+}
+
+@keyframes forkLifterForks_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  5% {
+    transform: translate(0, -10px);
+  }
+
+  20% {
+    transform: translate(0, 0);
+  }
+
+  26% {
+    transform: translate(0, 0);
+  }
+
+  27.5% {
+    transform: translate(0, -10px);
+  }
+
+  35% {
+    transform: translate(0, -10px);
+  }
+
+  37.5% {
+    transform: translate(0, 0px);
+  }
+
+  38% {
+    transform: translate(0, 0px);
+  }
+
+  40% {
+    transform: translate(0, -10px);
+  }
+  45% {
+    transform: translate(0px, -10px);
+  }
+
+  47.5% {
+    transform: translate(0px, 10px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
+
+@keyframes womenTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -20px);
+  }
+
+  20% {
+    transform: translate(99px, -97px);
+  }
+
+  25% {
+    transform: translate(99px, -52px);
+  }
+
+  30% {
+    transform: translate(99px, -52px);
+  }
+
+  35% {
+    transform: translate(198px, -129px);
+  }
+
+  37.5% {
+    transform: translate(198px, -107px);
+  }
+
+  42.5% {
+    transform: translate(198px, -107px);
+  }
+
+  45% {
+    transform: translate(297px, -184px);
+  }
+
+  47.5% {
+    transform: translate(297px, -162px);
+  }
+
+  100% {
+    transform: translate(297px, -162px);
+  }
+}
+
+@keyframes movieTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -20px);
+  }
+
+  20% {
+    transform: translate(99px, -97px);
+  }
+
+  25% {
+    transform: translate(99px, -52px);
+  }
+
+  30% {
+    transform: translate(99px, -52px);
+  }
+
+  35% {
+    transform: translate(198px, -129px);
+  }
+
+  37.5% {
+    transform: translate(198px, -107px);
+  }
+
+  100% {
+    transform: translate(198px, -107px);
+  }
+}
+
+@keyframes chatTile_moves {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(0px, 0px);
+  }
+  15% {
+    transform: translate(0px, -20px);
+  }
+
+  20% {
+    transform: translate(99px, -97px);
+  }
+
+  25% {
+    transform: translate(99px, -52px);
+  }
+  100% {
+    transform: translate(99px, -52px);
+  }
+}
+
+@keyframes www_word_move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  50% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+  100% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+}
+
+@keyframes app_word_move {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  25% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(35px, 18px);
+  }
+
+  100% {
+    transform: translate(35px, 18px);
+  }
+}
+
+@keyframes heartTile_moves {
+  50% {
+    transform: translate(0px, -500px);
+  }
+
+  55% {
+    transform: translate(-347px, -500px);
+  }
+
+  100% {
+    transform: translate(-347px, 180px);
+  }
+}
+
+@keyframes imageTile_moves {
+  0% {
+    transform: translate(0px, -900px);
+    opacity: 0%;
+  }
+
+  1% {
+    opacity: 0%;
+  }
+  4% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  52.5% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  55% {
+    transform: translate(347px, -180px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(347px, -180px);
+  }
+}
+
+@keyframes articleTile_moves {
+  0% {
+    transform: translate(0px, -900px);
+    opacity: 0%;
+  }
+
+  1% {
+    opacity: 0%;
+  }
+  4% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  52.5% {
+    transform: translate(0px, -500px);
+    opacity: 0%;
+  }
+
+  55% {
+    transform: translate(74px, 318px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(74px, 318px);
+  }
+}
+
+@keyframes securityTile_moves {
+  50% {
+    transform: translate(0px, 800px);
+    opacity: 100%;
+  }
+  52.5% {
+    opacity: 0%;
+  }
+
+  55% {
+    transform: translate(-74px, -800px);
+  }
+
+  100% {
+    transform: translate(-74px, -318px);
+  }
+}
+
+@keyframes chartTile_moves {
+  50% {
+    transform: translate(0px, -800px);
+    opacity: 100%;
+  }
+  52.5% {
+    opacity: 0%;
+  }
+
+  55% {
+    transform: translate(-454px, -800px);
+  }
+
+  100% {
+    transform: translate(-545px, 336px);
+  }
+}
+
+@keyframes calendarTile_moves {
+  0% {
+    transform: translate(0px, -900px);
+    opacity: 0%;
+  }
+
+  1% {
+    opacity: 0%;
+  }
+  4% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  50% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  52.5% {
+    transform: translate(0px, -600px);
+    opacity: 0%;
+  }
+
+  55% {
+    transform: translate(545px, -336px);
+    opacity: 100%;
+  }
+
+  100% {
+    transform: translate(545px, -336px);
+  }
+}
+
+/* ==== CSS style ==== */
+.intro_svg {
+  border: 1px solid red;
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  height: 400px;
+  margin-top: 100px;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+}
+
+.tile {
+  transform-origin: initial;
+  transform: translate(0px, -900px);
+  /* animation-fill-mode: forwards; */
+}
+
+.shoppingCart_tile {
+  animation: tile_intro 0.75s ease-in-out;
+  animation-delay: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+.contacts_tile {
+  animation: tile_intro 0.75s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.email_tile {
+  animation: tile_intro 0.75s ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.calendar_tile {
+  animation: calendarTile_moves 20s ease-in-out;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.personDetail_tile {
+  animation: tile_intro 0.75s ease-in-out;
+  animation-delay: -0.4s;
+  animation-fill-mode: forwards;
+}
+
+.img_tile {
+  animation: imageTile_moves 20s ease-in-out;
+  animation-delay: -0.3s;
+  animation-fill-mode: forwards;
+}
+
+.social_tile {
+  animation: tile_intro 0.75s ease-in-out;
+  animation-delay: -0.2s;
+  animation-fill-mode: forwards;
+}
+
+.article_tile {
+  animation: articleTile_moves 20s ease-in-out;
+  animation-delay: -0.1s;
+  animation-fill-mode: forwards;
+}
+
+.forkLifter {
+  animation: forkLifter_moves 20s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.forkLifter .forkLifter_forks {
+  animation: forkLifterForks_moves 20s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.women_tile {
+  animation: womenTile_moves 20s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+}
+
+.movie_tile {
+  animation: movieTile_moves 20s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+}
+
+.chat_tile {
+  animation: chatTile_moves 20s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+}
+
+.www_word .w_letter:nth-of-type(1) {
+  animation: www_word_move 1s ease-in-out infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  transform-origin: initial;
+  animation-delay: 10.1s;
+}
+
+.app_word .a_letter:nth-of-type(1) {
+  animation: app_word_move 1s ease-in-out infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+
+  transform-origin: initial;
+  animation-delay: 10.1s;
+}
+
+.www_word .w_letter:nth-of-type(2) {
+  animation: www_word_move 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.15s;
+}
+
+.app_word .a_letter:nth-of-type(2) {
+  animation: app_word_move 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.15s;
+}
+
+.www_word .w_letter:nth-of-type(3) {
+  animation: www_word_move 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.2s;
+}
+
+.app_word .a_letter:nth-of-type(3) {
+  animation: app_word_move 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.2s;
+}
+
+.heart_tile {
+  animation: heartTile_moves 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.1s;
+}
+
+.security_tile {
+  animation: securityTile_moves 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.1s;
+}
+
+.chart_tile {
+  animation: chartTile_moves 1s ease-in-out;
+  animation-fill-mode: forwards;
+  transform-origin: initial;
+  animation-delay: 10.1s;
+}
