@@ -131,54 +131,54 @@
   0% {
     transform: translate(0px, 0px);
   }
-  10% {
+  16% {
     transform: translate(-180px, 140px);
   }
 
-  15% {
+  24% {
     transform: translate(-180px, 140px);
   }
 
-  20% {
+  32% {
     transform: translate(-81px, 63px);
-  }
-
-  25% {
-    transform: translate(-81px, 63px);
-  }
-
-  27.5% {
-    transform: translate(-45px, 35px);
-  }
-
-  30% {
-    transform: translate(-90px, 70px);
-  }
-
-  35% {
-    transform: translate(9px, -7px);
-  }
-  37.5% {
-    transform: translate(9px, -7px);
   }
 
   40% {
-    transform: translate(54px, -42px);
+    transform: translate(-81px, 63px);
   }
 
-  42.5% {
+  44% {
+    transform: translate(-45px, 35px);
+  }
+
+  48% {
+    transform: translate(-90px, 70px);
+  }
+
+  56% {
+    transform: translate(9px, -7px);
+  }
+  60% {
     transform: translate(9px, -7px);
   }
 
-  45% {
+  64% {
+    transform: translate(54px, -42px);
+  }
+
+  68% {
+    transform: translate(9px, -7px);
+  }
+
+  72% {
     transform: translate(108px, -84px);
   }
 
-  47.5% {
+  76% {
     transform: translate(108px, -84px);
   }
 
-  50% {
+  80% {
     transform: translate(180px, -133px);
   }
 
@@ -191,45 +191,45 @@
   0% {
     transform: translate(0px, 0px);
   }
-  5% {
+  8% {
     transform: translate(0, -10px);
   }
 
-  20% {
+  32% {
     transform: translate(0, 0);
   }
 
-  26% {
+  41.6% {
     transform: translate(0, 0);
   }
 
-  27.5% {
+  44% {
     transform: translate(0, -10px);
   }
 
-  35% {
+  56% {
     transform: translate(0, -10px);
   }
 
-  37.5% {
+  60% {
     transform: translate(0, 0px);
   }
 
-  38% {
+  60.8% {
     transform: translate(0, 0px);
   }
 
-  40% {
+  64% {
     transform: translate(0, -10px);
   }
-  45% {
+  72% {
     transform: translate(0px, -10px);
   }
 
-  47.5% {
+  76% {
     transform: translate(0px, 10px);
   }
-  50% {
+  80% {
     transform: translate(0px, 0px);
   }
 
@@ -238,46 +238,46 @@
   }
 }
 
-@keyframes womenTile_moves {
+@keyframes womanTile_moves {
   0% {
     transform: translate(0px, 0px);
   }
-  10% {
+  16% {
     transform: translate(0px, 0px);
   }
-  15% {
+  24% {
     transform: translate(0px, -20px);
   }
 
-  20% {
+  32% {
     transform: translate(99px, -97px);
   }
 
-  25% {
+  40% {
     transform: translate(99px, -52px);
   }
 
-  30% {
+  48% {
     transform: translate(99px, -52px);
   }
 
-  35% {
+  56% {
     transform: translate(198px, -129px);
   }
 
-  37.5% {
+  60% {
     transform: translate(198px, -107px);
   }
 
-  42.5% {
+  68% {
     transform: translate(198px, -107px);
   }
 
-  45% {
+  72% {
     transform: translate(297px, -184px);
   }
 
-  47.5% {
+  76% {
     transform: translate(297px, -162px);
   }
 
@@ -290,30 +290,30 @@
   0% {
     transform: translate(0px, 0px);
   }
-  10% {
+  16% {
     transform: translate(0px, 0px);
   }
-  15% {
+  24% {
     transform: translate(0px, -20px);
   }
 
-  20% {
+  32% {
     transform: translate(99px, -97px);
   }
 
-  25% {
+  40% {
     transform: translate(99px, -52px);
   }
 
-  30% {
+  48% {
     transform: translate(99px, -52px);
   }
 
-  35% {
+  56% {
     transform: translate(198px, -129px);
   }
 
-  37.5% {
+  60% {
     transform: translate(198px, -107px);
   }
 
@@ -326,18 +326,16 @@
   0% {
     transform: translate(0px, 0px);
   }
-  10% {
+  16% {
     transform: translate(0px, 0px);
   }
-  15% {
+  24% {
     transform: translate(0px, -20px);
   }
-
-  20% {
+  32% {
     transform: translate(99px, -97px);
   }
-
-  25% {
+  40% {
     transform: translate(99px, -52px);
   }
   100% {
@@ -348,14 +346,20 @@
 @keyframes www_word_move {
   0% {
     transform: translate(0px, 0px);
+    opacity: 100%;
   }
 
-  25% {
+  80% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  82.5% {
     transform: translate(0px, -500px);
     opacity: 0%;
   }
 
-  50% {
+  85% {
     transform: translate(0px, -500px);
     opacity: 0%;
   }
@@ -370,11 +374,15 @@
     transform: translate(0px, 0px);
   }
 
-  25% {
+  80% {
     transform: translate(0px, 0px);
   }
 
-  50% {
+  82.5% {
+    transform: translate(0px, 0px);
+  }
+
+  85% {
     transform: translate(35px, 18px);
   }
 
@@ -384,12 +392,19 @@
 }
 
 @keyframes heartTile_moves {
-  50% {
-    transform: translate(0px, -500px);
+  0% {
+    transform: translate(0px, 0px);
   }
 
-  55% {
+  80% {
+    transform: translate(0px, 0px);
+  }
+  85% {
     transform: translate(-347px, -500px);
+  }
+
+  88% {
+    transform: translate(-347px, 180px);
   }
 
   100% {
@@ -398,30 +413,22 @@
 }
 
 @keyframes imageTile_moves {
-  0% {
-    transform: translate(0px, -900px);
-    opacity: 0%;
-  }
-
-  1% {
-    opacity: 0%;
-  }
-  4% {
+  5% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  50% {
+  80% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  52.5% {
+  84% {
     transform: translate(0px, -500px);
     opacity: 0%;
   }
 
-  55% {
+  88% {
     transform: translate(347px, -180px);
     opacity: 100%;
   }
@@ -432,30 +439,22 @@
 }
 
 @keyframes articleTile_moves {
-  0% {
-    transform: translate(0px, -900px);
-    opacity: 0%;
-  }
-
-  1% {
-    opacity: 0%;
-  }
-  4% {
+  5% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  50% {
+  80% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  52.5% {
+  84% {
     transform: translate(0px, -500px);
     opacity: 0%;
   }
 
-  55% {
+  88% {
     transform: translate(74px, 318px);
     opacity: 100%;
   }
@@ -466,16 +465,32 @@
 }
 
 @keyframes securityTile_moves {
-  50% {
-    transform: translate(0px, 800px);
+  0% {
+    transform: translate(0px, 0px);
     opacity: 100%;
   }
-  52.5% {
+
+  75% {
+    transform: translate(0px, 0px);
+    opacity: 100%;
+  }
+
+  77% {
     opacity: 0%;
   }
 
-  55% {
+  80% {
+    transform: translate(0px, 800px);
+  }
+
+  84% {
     transform: translate(-74px, -800px);
+    opacity: 0%;
+  }
+
+  88% {
+    transform: translate(-74px, -318px);
+    opacity: 100%;
   }
 
   100% {
@@ -484,16 +499,25 @@
 }
 
 @keyframes chartTile_moves {
-  50% {
-    transform: translate(0px, -800px);
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  75% {
+    transform: translate(0px, 0px);
+  }
+
+  80% {
+    transform: translate(-545px, -800px);
     opacity: 100%;
   }
-  52.5% {
+  82% {
     opacity: 0%;
   }
 
-  55% {
-    transform: translate(-454px, -800px);
+  88% {
+    transform: translate(-545px, 336px);
+    opacity: 100%;
   }
 
   100% {
@@ -502,30 +526,22 @@
 }
 
 @keyframes calendarTile_moves {
-  0% {
-    transform: translate(0px, -900px);
-    opacity: 0%;
-  }
-
-  1% {
-    opacity: 0%;
-  }
-  4% {
+  5% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  50% {
+  80% {
     transform: translate(0px, 0px);
     opacity: 100%;
   }
 
-  52.5% {
+  84% {
     transform: translate(0px, -600px);
     opacity: 0%;
   }
 
-  55% {
+  88% {
     transform: translate(545px, -336px);
     opacity: 100%;
   }
@@ -554,142 +570,92 @@
 }
 
 .shoppingCart_tile {
-  animation: tile_intro 0.75s ease-in-out;
-  animation-delay: 0.2s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s 0.2s ease-in-out forwards;
 }
 
 .contacts_tile {
-  animation: tile_intro 0.75s ease-in-out;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s ease-in-out forwards;
 }
 
 .email_tile {
-  animation: tile_intro 0.75s ease-in-out;
-  animation-delay: 0.3s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s 0.3s ease-in-out forwards;
 }
 
 .calendar_tile {
-  animation: calendarTile_moves 20s ease-in-out;
-  animation-delay: 0.4s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s 0.05s ease-in-out forwards,
+    calendarTile_moves 12s 0.1s ease-in-out infinite both alternate;
 }
 
 .personDetail_tile {
-  animation: tile_intro 0.75s ease-in-out;
-  animation-delay: -0.4s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s -0.4s ease-in-out forwards;
 }
 
 .img_tile {
-  animation: imageTile_moves 20s ease-in-out;
-  animation-delay: -0.3s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s -0.3s ease-in-out forwards,
+    imageTile_moves 12s -0.3s ease-in-out infinite both alternate;
 }
 
 .social_tile {
-  animation: tile_intro 0.75s ease-in-out;
-  animation-delay: -0.2s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s -0.2s ease-in-out forwards;
 }
 
 .article_tile {
-  animation: articleTile_moves 20s ease-in-out;
-  animation-delay: -0.1s;
-  animation-fill-mode: forwards;
+  animation: tile_intro 0.75s -0.1s ease-in-out forwards,
+    articleTile_moves 12s -0.1s ease-in-out infinite both alternate;
 }
 
 .forkLifter {
-  animation: forkLifter_moves 20s ease-in-out;
-  animation-fill-mode: forwards;
+  animation: forkLifter_moves 12s ease-in-out infinite both alternate;
 }
 
 .forkLifter .forkLifter_forks {
-  animation: forkLifterForks_moves 20s ease-in-out;
-  animation-fill-mode: forwards;
+  animation: forkLifterForks_moves 12s ease-in-out infinite both alternate;
 }
 
-.women_tile {
-  animation: womenTile_moves 20s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
+.woman_tile {
+  animation: womanTile_moves 12s ease-in-out infinite both alternate;
 }
 
 .movie_tile {
-  animation: movieTile_moves 20s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
+  animation: movieTile_moves 12s ease-in-out infinite both alternate;
 }
 
 .chat_tile {
-  animation: chatTile_moves 20s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
+  animation: chatTile_moves 12s ease-in-out infinite both alternate;
 }
 
-.www_word .w_letter:nth-of-type(1) {
-  animation: www_word_move 1s ease-in-out infinite;
-  animation-fill-mode: both;
-  animation-direction: alternate;
-  transform-origin: initial;
-  animation-delay: 10.1s;
+.www_word .w_letter {
+  animation: www_word_move 12s ease-in-out infinite both alternate;
 }
 
-.app_word .a_letter:nth-of-type(1) {
-  animation: app_word_move 1s ease-in-out infinite;
-  animation-fill-mode: both;
-  animation-direction: alternate;
-
-  transform-origin: initial;
-  animation-delay: 10.1s;
+.app_word .a_letter {
+  animation: app_word_move 12s ease-in-out infinite both alternate;
 }
 
 .www_word .w_letter:nth-of-type(2) {
-  animation: www_word_move 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.15s;
+  animation-delay: 0.05s;
 }
 
 .app_word .a_letter:nth-of-type(2) {
-  animation: app_word_move 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.15s;
+  animation-delay: 0.05s;
 }
 
 .www_word .w_letter:nth-of-type(3) {
-  animation: www_word_move 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.2s;
+  animation-delay: 0.1s;
 }
 
 .app_word .a_letter:nth-of-type(3) {
-  animation: app_word_move 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.2s;
+  animation-delay: 0.1s;
 }
 
 .heart_tile {
-  animation: heartTile_moves 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.1s;
+  animation: heartTile_moves 12s 0.1s ease-in-out infinite both alternate;
 }
 
 .security_tile {
-  animation: securityTile_moves 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.1s;
+  animation: securityTile_moves 12s 0.2s ease-in-out infinite both alternate;
 }
 
 .chart_tile {
-  animation: chartTile_moves 1s ease-in-out;
-  animation-fill-mode: forwards;
-  transform-origin: initial;
-  animation-delay: 10.1s;
+  animation: chartTile_moves 12s 0.1s ease-in-out infinite both alternate;
 }
