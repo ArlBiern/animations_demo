@@ -1,6 +1,6 @@
 # Animations demonstration
 
-Purpose of this project is to create and test different type of animations.
+Purpose of this project is to create and test different type of animations. Those animations are based on svg, css animations and JS animations.
 This is a long-term project and will be updated on a regular basis.
 
 # Getting Started with Create React App
