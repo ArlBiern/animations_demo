@@ -1,0 +1,101 @@
+/* === Landing page - colors === */
+
+.landingPage_fil1 {
+  fill: #605d5c;
+}
+.landingPage_fil3 {
+  fill: #dededd;
+}
+.landingPage_fil2 {
+  fill: white;
+}
+.landingPage_fil4 {
+  fill: #3978a1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.offer_cnt {
+  background-color: #121212;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.offer_icon_cnt {
+  background-color: #222;
+  width: 20vw;
+  height: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px 0px #fff;
+  transition: box-shadow ease-in-out 0.25s, background-color ease-in-out 0.4s;
+}
+
+/* ====== LANDING PAGE ICON ====== */
+
+.landingPage_icon_svg {
+  width: 12vw;
+  height: auto;
+  display: flex;
+  transform: rotate(-45deg);
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  transition: ease-in-out 0.4s;
+}
+
+.landingPage_icon_svg .mobile circle {
+  transition: ease-in-out 0.25s;
+}
+
+.offer_icon_cnt:hover {
+  box-shadow: 0px 0px 25px 0px #ff8a00;
+  background-color: #111;
+}
+
+/* == HOVER state - landing Page icon == */
+
+.offer_icon_cnt:hover .landingPage_icon_svg {
+  transform: rotate(-45deg) scale(1.1);
+}
+
+.offer_icon_cnt:hover .landingPage_icon_svg .mobile circle:nth-of-type(1),
+.offer_icon_cnt:hover
+  .landingPage_icon_svg
+  .desctop_inside
+  circle:nth-of-type(1) {
+  fill: green;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.offer_icon_cnt:hover .landingPage_icon_svg .mobile circle:nth-of-type(2),
+.offer_icon_cnt:hover
+  .landingPage_icon_svg
+  .desctop_inside
+  circle:nth-of-type(2) {
+  fill: orange;
+  transition-delay: 0.1s;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.offer_icon_cnt:hover .landingPage_icon_svg .mobile circle:nth-of-type(3),
+.offer_icon_cnt:hover
+  .landingPage_icon_svg
+  .desctop_inside
+  circle:nth-of-type(3) {
+  fill: red;
+  transition-delay: 0.2s;
+  stroke: #fff;
+  stroke-width: 1px;
+}

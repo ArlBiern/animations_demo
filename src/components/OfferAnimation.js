@@ -1,13 +1,11 @@
+import "../styles/OfferAnimation.css";
+
 function OfferAnimation() {
   return (
     <div>
       <div className="offer_cnt">
         <div className="offer_icon_cnt landingPage_icon">
-          <svg
-            className="landingPage_icon_svg"
-            xml:space="preserve"
-            viewBox="0 0 150.431 162.277"
-          >
+          <svg className="landingPage_icon_svg" viewBox="0 0 150.431 162.277">
             <g>
               <g className="desctop">
                 <rect
@@ -341,11 +339,7 @@ function OfferAnimation() {
         </div>
 
         <div className="offer_icon_cnt spa_icon">
-          <svg
-            className="spa_icon_svg"
-            xml:space="preserve"
-            viewBox="0 0 95.9649 95.9272"
-          >
+          <svg className="spa_icon_svg" viewBox="0 0 95.9649 95.9272">
             <g>
               <circle
                 className="spaIcon_fil0 spa_backCircle"
@@ -611,11 +605,7 @@ function OfferAnimation() {
         </div>
 
         <div className="offer_icon_cnt deploy_icon">
-          <svg
-            className="deploy_icon_svg"
-            xml:space="preserve"
-            viewBox="0 0 213.202 179.555"
-          >
+          <svg className="deploy_icon_svg" viewBox="0 0 213.202 179.555">
             <g className="deply_icon_monitor">
               <rect
                 className="deploy_fil1"
