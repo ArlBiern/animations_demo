@@ -99,3 +99,87 @@
   stroke: #fff;
   stroke-width: 1px;
 }
+
+/* ================== SPA ICON ================== */
+
+@keyframes spaAnimation {
+  0% {
+    filter: drop-shadow(0px 0px 0px #fff);
+  }
+
+  /*  50% {
+    filter: drop-shadow(0px 0px 2px #fff);
+  } */
+
+  100% {
+    filter: drop-shadow(0px 0px 4px #fff);
+  }
+}
+.spaIcon_str0 {
+  stroke: #1f1a17;
+  stroke-width: 0.0731252;
+}
+.spaIcon_str2 {
+  stroke: white;
+  stroke-width: 0.479824;
+}
+.spaIcon_str1 {
+  stroke: white;
+  stroke-width: 0.719737;
+}
+.spaIcon_fil4 {
+  fill: none;
+}
+
+.spaIcon_fil0 {
+  fill: #1f1a17;
+}
+.spaIcon_fil6 {
+  fill: #4d4948;
+}
+.spaIcon_fil1 {
+  fill: #e77817;
+}
+.spaIcon_fil5 {
+  fill: white;
+}
+.spaIcon_fil2 {
+  fill: #044363;
+}
+.spaIcon_fil3 {
+  fill: red;
+}
+
+.offer_cnt .spa_icon {
+  margin-top: 30vh;
+  margin-left: 15vh;
+  margin-right: 15vh;
+}
+
+.spa_icon_svg {
+  width: 14vw;
+  height: auto;
+  display: flex;
+  transform: rotate(-45deg);
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  transition: all ease-in-out 0.25s;
+}
+
+.spa_backCircle {
+  transition: all ease-in-out 0.5s;
+  transform: scale(0.4);
+  transform-origin: center;
+}
+
+.offer_icon_cnt:hover .spa_icon_svg {
+  transform: scale(1.15) rotate(-45deg);
+  transform-origin: center;
+}
+
+.offer_icon_cnt:hover .spa_backCircle {
+  fill: #fff;
+  transform: scale(1);
+  animation: spaAnimation 0.5s ease-in-out infinite both alternate;
+  /*  filter: drop-shadow(0px 0px 4px #fff); */
+}
